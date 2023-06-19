@@ -1,0 +1,64 @@
+{
+  "polygon" : {
+    "Agg": {
+      "_0x": {
+        "router":"0xDef1C0ded9bec7F1a1670819833240f027b25EfF",
+        "proxy":"0xDef1C0ded9bec7F1a1670819833240f027b25EfF",
+        "name":"0x",
+        "index": 0
+      },
+      "_1inch": {
+        "router":"0x1111111254fb6c44bAC0beD2854e76F90643097d",
+        "proxy":"0x1111111254fb6c44bAC0beD2854e76F90643097d",
+        "name":"1inch",
+        "index": 1
+      },
+      "para": {
+        "router":"0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+        "proxy":"0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
+        "name":"para",
+        "index": 2
+      }
+    },
+    "Token": {
+      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "USDC": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "USDT": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    "Swap": {
+      "proxy": "0x9e13f8c30C1b39336E2796De17ae7f61DA46e291",
+      "perform": "0xBc2Afe46edB90aCc1713B0A96d3C83e24ADD6631",
+      "lib": "0x124abd2f0c08fE5c47b9C524620AC2B675222ce9"
+    }
+  },
+  "bsc" : {
+    "Agg": {
+      "pancake": {
+        "router":"0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "proxy":"0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "name":"pancake",
+        "index": 0
+      }
+    },
+    "Token": {
+      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "BUSD": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "USDT": "0x55d398326f99059fF775485246999027B3197955"
+    },
+    "Swap": {
+      "proxy": "0xBb86acd676184B91d60634CCAE65C95db4F2183B",
+      "perform": "0xFA89e00395b8Fc0A753f2e472bcE5dEFe7b040e7",
+      "lib": "0xa52351ab48Aed9cE052316A70784583868CdBc82"
+    }
+  },
+  "rinkeby": {
+    "Multisig" :{
+        "address": "0xd2155B8CD7295B793c76656d95D060154185b8e1"
+    },
+    "Swap": {
+      "proxy": "0x6385bd094614bF76aa63e21346D722fE35f6B65F",
+      "perform": "0x0593b23E811A7fEB8ac43FEDcdd6f89950dAD5C9"
+    }
+  }
+     
+}
